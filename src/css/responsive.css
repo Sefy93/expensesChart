@@ -1,0 +1,34 @@
+@media(max-width:425px){
+    .container{
+        width: 95%;
+    }
+
+    .attribution{
+        position: absolute;
+        bottom: 5px;
+        font-size: 10px;
+    }
+}
+@media(max-width:375px){
+    .graf ul{
+        gap: 10px;
+    }
+}
+@media(max-width:375px){
+    .container{
+        margin-top: 10px;
+    }
+    .graf ul{
+        gap: 5px;
+    }
+
+    .attribution{
+       bottom: 0px;
+     }
+     .mon:active:before,.tue:active:before,.wed:active:before,.thu:active:before,.fri:active:before,.sat:active:before,.sun:active:before{
+        padding: 5px;
+        font-size: 12px;
+        top:-40px;
+        left: -2px;
+     }
+}
